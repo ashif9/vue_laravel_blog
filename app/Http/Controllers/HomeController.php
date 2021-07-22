@@ -13,6 +13,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
+        //this is a function which is used in every single function
         $this->middleware('auth');
     }
 
